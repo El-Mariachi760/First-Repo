@@ -18,6 +18,9 @@ header {
   padding: 20px 35px;
   background-color: #39a6b2;
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header a {
   text-decoration: none;
@@ -25,7 +28,6 @@ header a {
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -44,7 +46,7 @@ header h1 {
       font-size: 36px;
       color: #fce138;
       margin: 0;
-      display: inline;
+      
     }
 
 
@@ -73,7 +75,7 @@ cursor: pointer;
 /*Hero Section formating*/
 
 .hero {
-  background-image: url("C:/Users/Alex_/Desktop/Boot Camp/courseWork/UCB-VIRT-BO-FSF-PT-03-2022-U-B/01-HTML-Git-CSS/01-Activities/03-CSS-Selectors/Unsolved/assets/images/hero-bg.jpg");
+  background-image: url("C:/Users/Alex_/Desktop/Boot Camp/First-Repo/assets/images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
