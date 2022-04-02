@@ -80,12 +80,7 @@ cursor: pointer;
 /*Hero Section formating*/
 
 .hero {
-<<<<<<< HEAD:runStyle.css
-  background-image: url("./assets/images/hero-bg.jpg");
-  height: 600px;
-=======
   background-image: url("C:/Users/Alex_/Desktop/Boot Camp/First-Repo/assets/images/hero-bg.jpg");
->>>>>>> feature/flexbox:assets/css/runStyle.css
   background-size: cover;
   background-position: center;
   padding: 20px;
