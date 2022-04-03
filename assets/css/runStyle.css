@@ -21,6 +21,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 header a {
   text-decoration: none;
@@ -73,6 +81,12 @@ cursor: pointer;
 .nav-links li a:hover {
     color: #0088a9;
 }
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
 
 
 /* End Navagation bar*/
@@ -80,9 +94,11 @@ cursor: pointer;
 /*Hero Section formating*/
 
 .hero {
-  background-image: url("C:/Users/Alex_/Desktop/Boot Camp/First-Repo/assets/images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -111,6 +127,8 @@ cursor: pointer;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 }
 .heroForm h3 {
   font-size: 24px;
@@ -129,6 +147,13 @@ cursor: pointer;
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.form-input:focus, .contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .heroForm label {
@@ -143,10 +168,11 @@ cursor: pointer;
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  border-radius: 10px;
 }
 
 .heroForm button:hover {
-  color: green;
+  background-color: #39a6b2;
 }
 /* End Hero form */
 
@@ -194,6 +220,10 @@ cursor: pointer;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:last-child {
+  border-bottom: none;
 }
 
 .step-text {
@@ -330,6 +360,7 @@ cursor: pointer;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
 }
 
 .contact-form button {
@@ -340,6 +371,12 @@ cursor: pointer;
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
 }
 
 .contactInfo a {
@@ -386,6 +423,7 @@ footer {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
   
   header h1 {
