@@ -73,7 +73,7 @@
   /*Hero Section formating*/
   
   .hero {
-    background-image: url("C:/Users/Alex_/Desktop/Boot Camp/courseWork/UCB-VIRT-BO-FSF-PT-03-2022-U-B/01-HTML-Git-CSS/01-Activities/03-CSS-Selectors/Unsolved/assets/images/hero-bg.jpg");
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: bottom;
     height: auto;
